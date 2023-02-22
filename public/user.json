@@ -1,0 +1,30 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "name": "徐XX",
+            "thumb": "https://lin-xin.gitee.io/images/post/wms.png"
+        },
+        {
+            "id": 2,
+            "name": "杨XX",
+            "thumb": "https://lin-xin.gitee.io/images/post/node3.png"
+        },
+        {
+            "id": 3,
+            "name": "陈X",
+            "thumb": "https://lin-xin.gitee.io/images/post/parcel.png"
+        },
+        {
+            "id": 4,
+            "name": "蔡X",
+            "thumb": "https://lin-xin.gitee.io/images/post/notice.png"
+        },
+        {
+            "id": 5,
+            "name": "胡XX",
+            "thumb": "https://lin-xin.gitee.io/images/post/notice.png"
+        }
+    ],
+    "pageTotal": 5
+}

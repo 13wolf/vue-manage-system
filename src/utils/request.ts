@@ -1,11 +1,11 @@
-import axios, {AxiosInstance, AxiosError, AxiosResponse, AxiosRequestConfig} from 'axios';
+import axios, { AxiosInstance, AxiosError, } from 'axios';
 
-const service:AxiosInstance = axios.create({
+const service: AxiosInstance = axios.create({
     timeout: 5000
 });
 
 service.interceptors.request.use(
-    (config: AxiosRequestConfig) => {
+    (config) => {
         return config;
     },
     (error: AxiosError) => {
@@ -15,12 +15,8 @@ service.interceptors.request.use(
 );
 
 service.interceptors.response.use(
-    (response: AxiosResponse) => {
-        if (response.status === 200) {
-            return response;
-        } else {
-            Promise.reject();
-        }
+    (response) => {
+        return response;
     },
     (error: AxiosError) => {
         console.log(error);

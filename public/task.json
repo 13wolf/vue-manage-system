@@ -1,0 +1,59 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "taskName": "验收文档修改及撰写",
+            "summary": "根据验收文档的格式对现有文件进行调整",
+            "echelon": 1,
+            "responsible": "徐XX",
+            "plainDate": "2019-11-1",
+            "finishDate": "2019-11-1",
+            "plainDuartion": 2,
+            "checktime": "2019-11-1",
+            "checkPerson": "审核人",
+            "checkResult": "",
+            "checkStatus": "0",
+            "remark": "",
+            "status": "0",
+            "rate": 98,
+            "thumb": "https://lin-xin.gitee.io/images/post/wms.png"
+        },
+        {
+            "id": 2,
+            "taskName": "操作手册的撰写",
+            "summary": "根据修改后的系统撰写操作手册，这个手册可能会作为三方测评功能测试的依据，所以可以简单些",
+            "echelon": 1,
+            "responsible": "徐XX",
+            "plainDate": "2019-11-1",
+            "finishDate": "2019-11-1",
+            "plainDuartion": 3,
+            "checktime": "2019-11-1",
+            "checkPerson": "审核人",
+            "checkResult": "",
+            "checkStatus": "0",
+            "remark": "",
+            "status": "0",
+            "rate": 98,
+            "thumb": "https://lin-xin.gitee.io/images/post/node3.png"
+        },
+        {
+            "id": 3,
+            "taskName": "开发回归测试及界面设计调整",
+            "summary": "地图上重点标记；报表统计加入打印功能；报表统计的基本设置中为每个列加入标题；报表统计和系统统计加入针对登录用户的数据过滤；业务数据报表时导出经过字段设置等",
+            "echelon": 2,
+            "responsible": "杨XX",
+            "plainDate": "2019-11-1",
+            "finishDate": "2019-11-1",
+            "plainDuartion": 3,
+            "checktime": "2019-11-1",
+            "checkPerson": "胡XX",
+            "checkResult": "审核通过",
+            "checkStatus": "1",
+            "remark": "地图上重点标记；报表统计加入打印功能；报表统计的基本设置中为每个列加入标题；报表统计和系统统计加入针对登录用户的数据过滤；业务数据报表时导出经过字段设置等",
+            "status": "1",
+            "rate": 98,
+            "thumb": "https://lin-xin.gitee.io/images/post/node3.png"
+        }
+    ],
+    "pageTotal": 3
+}

@@ -22,6 +22,15 @@ const routes: RouteRecordRaw[] = [
                 component: () => import(/* webpackChunkName: "dashboard" */ '../views/dashboard.vue'),
             },
             {
+                path: '/task',
+                name: 'task',
+                meta: {
+                    title: '任务列表',
+                    permiss: '2',
+                },
+                component: () => import(/* webpackChunkName: "task" */ '../views/task/list.vue'),
+            },
+            {
                 path: '/table',
                 name: 'basetable',
                 meta: {
